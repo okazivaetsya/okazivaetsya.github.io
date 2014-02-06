@@ -159,7 +159,7 @@ section {
 
 #about h2 {
 	margin: 0 auto;
-	padding: 140px 0 30px 0;
+	padding: 75px 0 30px 0;
 	font-size: 46px;
 	font-weight: 300;
 	display: block;
@@ -186,11 +186,12 @@ section {
 #forruners ul {
 	padding-left: 50px;
 	text-align: left;
+	font-weight: lighter;
 }
 
 #forruners h2 {
 	margin: 0 auto;
-	padding: 140px 0 30px 0;
+	padding: 75px 0 30px 0;
 	font-size: 46px;
 	font-weight: 300;
 	display: block;
@@ -261,7 +262,7 @@ section {
 
 #race h2 {
 	margin: 0 auto;
-	padding: 140px 0 30px 0;
+	padding: 75px 0 30px 0;
 	font-size: 46px;
 	font-weight: 300;
 	display: block;
@@ -291,7 +292,7 @@ section {
 
 #sponsors h2 {
 	margin: 0 auto;
-	padding: 140px 0 30px 0;
+	padding: 75px 0 30px 0;
 	font-size: 46px;
 	font-weight: 300;
 	display: block;
@@ -319,7 +320,7 @@ section {
 
 #registration h2 {
 	margin: 0 auto;
-	padding: 140px 0 30px 0;
+	padding: 75px 0 30px 0;
 	font-size: 46px;
 	font-weight: 300;
 	display: block;
