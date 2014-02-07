@@ -5,7 +5,7 @@
 	background: #ffffff;
 	color: #000000;
 	font-family: Helvetica;
-	font-size: 28px;
+	font-size: 20px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -24,7 +24,7 @@
 
 #terms .content p{
 	letter-spacing: 1px;
-	font-size: 28px;
+	font-size: 20px;
 	padding: 10px 0;
 	font-weight: 100;
 }
@@ -58,7 +58,7 @@
 
 #terms .content li {
 		padding: 10px;
-		font-size: 28px;
+		font-size: 20px;
 		font-weight: 200;
 	}
 #terms .closex {
@@ -93,4 +93,8 @@
 	font-weight: 900;
 	text-align: center;
 
+}
+
+.nomarker{
+	list-style-type: none;
 }
