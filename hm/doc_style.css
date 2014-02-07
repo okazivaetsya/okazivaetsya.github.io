@@ -31,8 +31,9 @@
 
 #terms .content h1{
 	margin: 0 auto;
+	color: green;
 	padding: 40px 0;
-	font-size: 38px;
+	font-size: 48px;
 	font-weight: 900;
 	display: block;
 	text-align: center;
@@ -41,15 +42,25 @@
 }
 
 #terms .content h3{
-		margin: 0 auto;
-		padding: 30px 0;
-		font-size: 33px;
-		font-weight: 500;
-		display: block;
-		text-align: center;
-		text-transform: uppercase;
-		letter-spacing: 3px;
-		height: auto;	
+	margin: 0 auto;
+	color: green;
+	padding: 30px 0;
+	font-size: 33px;
+	font-weight: 500;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	height: auto;	
+}
+
+#terms .content h4 {
+	text-align: center;
+	margin-top: -25px;
+	font-size: 20px;
+	color: #bbb;
+	font-weight: 100;
+	letter-spacing: 3px;
 }
 
 #terms .content ol, ul {
@@ -73,7 +84,7 @@
 #terms .closex a {
 	text-decoration: none;
 	font-size: 70px;
-	color: green;
+	color: #505050;
 }
 
 #terms .closex a:hover {
