@@ -10,201 +10,7 @@
 body {
 	padding: 0;
 }
-
-nav {
-	position: fixed;
-	margin: 0 auto;
-	width: 100%;
-	text-align: center;
-	z-index: 1;
-	background: #5da130;
-	top: 0;
-}
-
-	nav ul {
-
-	}
-
-		nav li {
-			display: inline;
-			margin: 0 20px;
-		}
-
-			nav li a {
-				text-decoration: none;
-				letter-spacing: 2px;
-				font-size: 18px; 
-				color: white;
-				line-height: 1.5;
-				font-weight: 100;
-				line-height: 2.5;
-				text-transform: uppercase;
-			}
-
-			nav li a:hover {
-				border-bottom: 3px solid white; 
-			}
-
-header {
-	font-family: helvetica, arial, sans-serif;
-	background: url(imgs/pattern.png);
-	background-repeat: repeat;
-	height: 900px;
-}
-
-	header .main {
-		position: relative;
-		overflow: hidden;
-		width: 920px;
-		margin: 0 auto;
-	}
-
-		 header .main .datelogo {
-		 	float: left;
-		 	margin-top: 130px;
-		 	font-style: italic;
-		 	width: 220px;
-		 	height: 220px;
-		 	padding-top: 20px;
-		 	padding-left: 17px;
-		 	border-radius: 104px;
-		 	background: rgba(0, 91, 2, .6);
-		 }
-
-		 	header .main .datelogo .number {
-		 		display: block;
-		 		font-style: italic;
-		 		font-size: 135px;
-		 		color: white;
-		 		line-height: 0.8;
-		 	}
-
-		 	header .main .datelogo .month {
-		 		display: block;
-		 		font-style: italic;
-		 		font-size: 45px;
-		 		color: white;
-		 		text-transform: uppercase;
-		 	}
-
-		 header .main .textlogo {
-		 	float: right;
-		 	margin-top: 130px;
-		 }
-
-		 header .main .textlogo h1 {
-		 	font-size: 60px;
-		 	color: white;
-		 	text-align: right;
-		 	font-style: italic;
-		 	font-weight: 100;
-		 	letter-spacing: 3px;
-		 }
-
-		 .textlogo-bg {
-		 	background: #005b02;
-		 }
-
-	header .header-info {
-		background: rgba(0, 91, 2, .6);
-		width: 920px;
-		margin: 40px auto;
-		padding: 10px;
-	}
-
-	header .header-info h2 {
-		font-size: 70px;
-		font-weight: 100;
-		font-style: italic;
-		color: #fdff44;
-		text-align: center;
-		text-transform: uppercase;
-		letter-spacing: 4px;
-		border-bottom: 7px solid #fdff44;
-	}
-
-	header .header-sponsors {
-		margin: 150px auto;
-		text-align: center;
-	}
-
-	header .header-sponsors img {
-		margin: 5px 10px 40px;
-		box-shadow: 5px 5px 5px #000;
-	}
-
-	section {
-		padding: 0 10px;
-		position: relative;
-		overflow: hidden;
-		margin: 0 auto;
-		width: 920px;
-		font-family: helvetica, arial, sans-serif;
-	}
-
-	section h2{
-		margin: 0 auto 30px;
-		padding-top: 50px;
-		text-align: center;
-		font-weight: 100;
-		font-size: 50px;
-		color: green;
-		letter-spacing: 2px;
-	}
-
-	section p {
-		margin: 25px auto;
-		font-size: 20px;
-		font-weight:100;
-		letter-spacing: 1px;
-	}
-
-	section h3 {
-		margin: 60px auto 30px;
-		text-align: center;
-		font-weight: 600;
-		font-size: 25px;
-		color: green;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-	}
-
-	section .column {
-		margin: 0 auto;
-		width: 500px;
-	}
-
-	section .map {
-		float: left;
-	}
-
-	section .sponsors-list{
-		text-align: center;
-	}
-
-	section .more a{
-		display: block;
-		margin: 20px auto;
-		width: 300px;
-		background: white;
-		color: #5da130;
-		font-size: 17px;
-		text-align: center;
-		font-weight: 500;
-		text-decoration: none;
-		text-transform: uppercase;
-		line-height: 56px;
-		border: 2px solid #5da130;		
-	}
-
-	section .more a:hover, section .more a:active{
-		background: #5da130;
-		color: white;		
-	}
-
-/*-----------mobile version------------*/
-
-@media screen and (max-width: 919px) {
+/*--------------------mobile version before 520------------------------*/
 	header {
 	font-family: helvetica, arial, sans-serif;
 	background: url(imgs/pattern.png);
@@ -287,13 +93,6 @@ header {
 		box-shadow: 5px 5px 5px #000;
 	}
 
-	section {
-		position: relative;
-		overflow: hidden;
-		margin: 0 auto;
-		width: 100%;
-		font-family: helvetica, arial, sans-serif;
-	}
 
 	nav {
 		margin: 0 auto;
@@ -312,7 +111,259 @@ header {
 		}
 
 			nav li {
+				margin: 0;
+			}
 
+				nav li a {
+					display: block;
+					letter-spacing: 2px;
+					font-size: 18px; 
+					color: white;
+					text-decoration: none;
+					width: 100%;
+					font-weight: 100;
+					line-height: 2.5;
+					text-transform: uppercase;
+					padding-left: 10px;
+					border-bottom: 1px solid white;
+					border-top: 1px solid white;
+					border-collapse: collapse;
+				}
+
+				nav li a:hover, nav li a:active {				
+					background: rgba(0, 0, 0, .3);
+				}
+
+	section {
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto;
+		padding: 0 10px;
+		width: 100%;
+		font-family: helvetica, arial, sans-serif;
+	}
+
+		section h2{
+			margin: 0 auto 30px;
+			padding-top: 20px;
+			text-align: center;
+			font-weight: 100;
+			font-size: 40px;
+			color: green;
+			letter-spacing: 2px;
+		}
+
+		section p {
+			margin: 25px auto;
+			font-size: 16px;
+			font-weight:100;
+			letter-spacing: 1px;
+		}
+
+		section h3 {
+			margin: 0 auto;
+			text-align: center;
+			font-weight: 600;
+			font-size: 17px;
+			color: green;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+
+		section .column {
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		section .map {
+			float: left;
+		}
+
+		section .sponsors-list{
+			text-align: center;
+		}
+
+		section .more a{
+			display: block;
+			margin: 20px auto;
+			width: 200px;
+			background: white;
+			color: #5da130;
+			font-size: 17px;
+			text-align: center;
+			font-weight: 500;
+			text-decoration: none;
+			text-transform: uppercase;
+			line-height: 56px;
+			letter-spacing: 1px;
+			border: 2px solid #5da130;		
+		}
+
+		section .more a:hover, section .more a:active{
+			background: #5da130;
+			color: white;		
+		}
+
+		.map img {
+			width: 100%;
+		}
+
+
+	.regform {
+		padding: 20px 5px;
+		background: #edeeef;;
+		width: 100%;
+		max-width: 600px;
+		text-align: center;
+	}
+
+	.regform ul {
+		margin: 10px auto;
+
+	}
+
+	.regform li {
+		width: 100%;
+		max-width: 400px;
+		position: relative;
+		background: white;
+		padding: 1px;
+		list-style-type: none;
+		margin: 0 auto 20px;
+		border-radius: 3px; 
+	}
+
+	.regform li:last-child {
+		background: #edeeef;;
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+
+	.regform input {
+		border: none;
+		line-height: 2;
+		font-weight: 100;
+	}
+
+	.regform .regform-submit {
+		width: 200px;
+		line-height: 2;
+		background: white;
+		border: 2px solid green;
+		color: green;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+	}
+
+	.regform .regform-submit:hover, .regform .regform-submit:active {
+		color: white;
+		background: green; 
+	}
+/*-----------mobile version (before 920px)------------*/
+
+@media screen and (min-width: 520px){
+		header {
+	font-family: helvetica, arial, sans-serif;
+	background: url(imgs/pattern.png);
+	background-repeat: repeat;
+	height: inherit;
+}
+
+	header .main {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+		 header .main .datelogo {
+		 	display: block;
+		 	float: none;
+		 	margin: 15px auto 0;
+		 	font-style: italic;
+		 	text-align: center;
+		 	width: 100%;
+		 	height: inherit;
+		 	border-radius: 0;
+		 	padding: 0;
+		 	background: rgba(0, 91, 2, .6);
+		 }
+
+		 header .main .datelogo .number {
+		 	display: inline;
+		 	font-style: italic;
+		 	font-size: 60px;
+		 	color: white;
+		 	line-height: 1;
+		 }
+
+		 header .main .datelogo .month {
+		 	display: inline;
+		 	font-style: italic;
+			font-size: 40px;
+		 	color: white;
+		 	text-transform: uppercase;
+		 }
+
+		 header .main .textlogo {
+		 	float: none;
+		 	margin-top: 10px;
+		 }
+
+		 header .main .textlogo h1 {
+		 	font-size: 28px;
+		 	text-align: center;
+		 	font-weight: 100;
+		 	letter-spacing: 2px;
+		 }
+
+		 .textlogo-bg {
+		 	background: #005b02;
+		 }
+
+	header .header-info {
+		display: none;
+	}
+
+	header .header-info h2 {
+		font-size: 80px;
+		font-weight: 100;
+		font-style: italic;
+		color: #fdff44;
+		text-align: center;
+		text-transform: uppercase;
+		border-bottom: 7px solid #fdff44;
+	}
+
+	header .header-sponsors {
+		display: none;
+	}
+
+	header .header-sponsors img {
+		margin: 5px 10px 40px;
+		box-shadow: 5px 5px 5px #000;
+	}
+
+
+	nav {
+		margin: 0 auto;
+		width: 100%;
+		text-align: left;
+		z-index: 1;
+		background: #5da130;
+		position: relative;
+		top: 10px
+
+
+	}
+
+		nav ul {
+
+		}
+
+			nav li {
+				margin: 0;
 			}
 
 				nav li a {
@@ -329,34 +380,303 @@ header {
 					border-collapse: collapse;
 				}
 
-				nav li a:hover, nav li a:active {
-					border-bottom: 1px solid white;
-					border-top: 1px solid white;					
+				nav li a:hover, nav li a:active {					
 					background: rgba(0, 0, 0, .3);
 				}
 
+	section {
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 100%;
+		font-family: helvetica, arial, sans-serif;
+	}
+
+		section h2{
+			margin: 0 auto 30px;
+			padding-top: 20px;
+			text-align: center;
+			font-weight: 100;
+			font-size: 40px;
+			color: green;
+			letter-spacing: 2px;
+		}
+
+		section p {
+			margin: 25px auto;
+			font-size: 16px;
+			font-weight:100;
+			letter-spacing: 1px;
+		}
+
+		section h3 {
+			margin: 0 auto;
+			text-align: center;
+			font-weight: 600;
+			font-size: 17px;
+			color: green;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+
+		section .column {
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		section .map {
+			float: left;
+		}
+
+		section .sponsors-list{
+			text-align: center;
+		}
+
+		section .more a{
+			display: block;
+			margin: 20px auto;
+			width: 200px;
+			background: white;
+			color: #5da130;
+			font-size: 17px;
+			text-align: center;
+			font-weight: 500;
+			text-decoration: none;
+			text-transform: uppercase;
+			line-height: 56px;
+			border: 2px solid #5da130;		
+		}
+
+		section .more a:hover, section .more a:active{
+			background: #5da130;
+			color: white;		
+		}
+
+		.map img {
+			width: 100%;
+		}
+
+
+	.regform {
+		padding: 20px 5px;
+		background: #edeeef;;
+		width: 90%;
+		max-width: 600px;
+		margin: 0 auto;
+		border-radius: 10px;
+	}
+
+	.regform ul {
+		margin: 10px auto;
+
+	}
+
+	.regform li {
+		width: 100%;
+		max-width: 400px;
+		position: relative;
+		background: white;
+		padding: 1px;
+		list-style-type: none;
+		margin: 0 auto 20px;
+		border-radius: 3px; 
+	}
+
+	.regform li:last-child {
+		background: #edeeef;
+		margin: 30px auto 0;
+
+	}
+
+	.regform input {
+		border: none;
+		line-height: 2;
+		font-weight: 100;
+	}
+
+	.regform .regform-submit {
+		width: 250px;
+		margin: 0 auto;
+		line-height: 2;
+		background: white;
+		border: 2px solid green;
+		color: green;
+		text-transform: uppercase;
+
+	}
+
+	.regform .regform-submit:hover, .regform .regform-submit:active {
+		color: white;
+		background: green; 
+	}
+}
+
+
+
+/*-----------------------full version (after 920px)-------------------*/
+
+@media screen and (min-width: 920px){
+
+nav {
+	position: fixed;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	background: #5da130;
+	top: 0;
+}
+
+	nav ul {
+
+	}
+
+		nav li {
+			display: inline;
+			margin: 0 20px;
+		}
+
+			nav li a {
+				display: inline;
+				border: none;
+				text-decoration: none;
+				letter-spacing: 2px;
+				font-size: 18px; 
+				color: white;
+				width: inherit;
+				line-height: 1.5;
+				font-weight: 100;
+				line-height: 2.5;
+				text-transform: uppercase;
+				padding-left:0; 
+			}
+
+			nav li a:hover {
+				background: inherit;
+				border-bottom: 3px solid white; 
+			}
+
+header {
+	font-family: helvetica, arial, sans-serif;
+	background: url(imgs/pattern.png);
+	background-repeat: repeat;
+	height: 900px;
+}
+
+	header .main {
+		position: relative;
+		overflow: hidden;
+		width: 920px;
+		margin: 0 auto;
+	}
+
+		 header .main .datelogo {
+		 	float: left;
+		 	margin-top: 130px;
+		 	font-style: italic;
+		 	width: 220px;
+		 	height: 220px;
+		 	padding-top: 20px;
+		 	padding-left: 17px;
+		 	border-radius: 104px;
+		 	background: rgba(0, 91, 2, .6);
+		 }
+
+		 	header .main .datelogo .number {
+		 		display: block;
+		 		font-style: italic;
+		 		font-size: 135px;
+		 		color: white;
+		 		line-height: 0.8;
+		 	}
+
+		 	header .main .datelogo .month {
+		 		display: block;
+		 		font-style: italic;
+		 		font-size: 45px;
+		 		color: white;
+		 		text-transform: uppercase;
+		 	}
+
+		 header .main .textlogo {
+		 	float: right;
+		 	margin-top: 130px;
+		 }
+
+		 header .main .textlogo h1 {
+		 	font-size: 60px;
+		 	color: white;
+		 	text-align: right;
+		 	font-style: italic;
+		 	font-weight: 100;
+		 	letter-spacing: 3px;
+		 }
+
+		 .textlogo-bg {
+		 	background: #005b02;
+		 }
+
+	header .header-info {
+		display: block;
+		background: rgba(0, 91, 2, .6);
+		width: 920px;
+		margin: 40px auto;
+		padding: 10px;
+	}
+
+	header .header-info h2 {
+		font-size: 70px;
+		font-weight: 100;
+		font-style: italic;
+		color: #fdff44;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		border-bottom: 7px solid #fdff44;
+	}
+
+	header .header-sponsors {
+		display: block;
+		margin: 150px auto;
+		text-align: center;
+	}
+
+	header .header-sponsors img {
+		margin: 5px 10px 40px;
+		box-shadow: 5px 5px 5px #000;
+	}
+
+	section {
+		padding: 0 10px;
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 920px;
+		font-family: helvetica, arial, sans-serif;
+	}
+
 	section h2{
 		margin: 0 auto 30px;
-		padding-top: 20px;
+		padding-top: 50px;
 		text-align: center;
 		font-weight: 100;
-		font-size: 40px;
+		font-size: 50px;
 		color: green;
 		letter-spacing: 2px;
 	}
 
 	section p {
 		margin: 25px auto;
-		font-size: 16px;
+		font-size: 20px;
 		font-weight:100;
 		letter-spacing: 1px;
 	}
 
 	section h3 {
-		margin: 0 auto;
+		margin: 60px auto 30px;
 		text-align: center;
 		font-weight: 600;
-		font-size: 17px;
+		font-size: 25px;
 		color: green;
 		letter-spacing: 2px;
 		text-transform: uppercase;
@@ -364,7 +684,7 @@ header {
 
 	section .column {
 		margin: 0 auto;
-		width: 100%;
+		width: 500px;
 	}
 
 	section .map {
@@ -378,7 +698,7 @@ header {
 	section .more a{
 		display: block;
 		margin: 20px auto;
-		width: 200px;
+		width: 300px;
 		background: white;
 		color: #5da130;
 		font-size: 17px;
@@ -394,11 +714,4 @@ header {
 		background: #5da130;
 		color: white;		
 	}
-
-	.map img {
-		width: 100%;
-	}
-
 }
-
-
