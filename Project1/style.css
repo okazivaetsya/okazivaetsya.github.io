@@ -162,7 +162,8 @@ body {
 					border-collapse: collapse;
 				}
 
-				nav li a:hover, nav li a:active {				
+				nav li a:hover,
+				nav li a:active {				
 					background: rgba(0, 0, 0, .3);
 				}
 
