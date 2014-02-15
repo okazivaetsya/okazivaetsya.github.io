@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+}
+
+header {
+	background: url(imgs/bg.png);
+	position: relative;
+	background-size: cover;
+	width: 1280px;
+	height: 610px;
+	margin: 0 auto;
+	font-family: 'Scada', sans-serif;
+}
+
+header .space {
+	height: 150px;
+	width: 300px;
+}
+
+header .green-tape {
+	width: 650px;
+	margin-left: 3px;
+	-webkit-transform: rotate(-15deg); /* Для Safari и Chrome */
+    -moz-transform: rotate(-15deg); /* Для Firefox */
+    -o-transform: rotate(-15deg); /* Для Opera */
+    -ms-transform: rotate(-15deg); /* Для IE */
+    transform: rotate(-15deg); /* CSS3 */
+}	
+
+header .green-tape h1 {
+
+	padding: 16px 0 10px 100px;
+	font-size: 48px;
+	line-height: .9;
+	background: #01a217;
+	color: white;
+	letter-spacing: 1px;
+	-webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg); 
+    -o-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg); 
+    transform: skewX(-15deg);
+
+}
+
+header .shadow {
+	margin-left: 351px;
+	height: 30px;
+	width: 220px;
+	background: #00591a;
+	-webkit-transform: skewX(-75deg); 
+    -moz-transform: skewX(-75deg); 
+    -o-transform: skewX(-75deg); 
+    -ms-transform: skewX(-75deg); 
+    transform: skewX(-75deg); 
+}
+
+header .green-tape h2 {
+	display: inline-block;
+	width: 190px;
+	margin-left: 283px;
+	padding-left: 40px;
+	font-size: 38px;
+	text-transform: uppercase;
+	background: #01a217;
+	color: white;
+	-webkit-transform: skewX(-15deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-15deg); /* Для Firefox */
+    -o-transform: skewX(-15deg); /* Для Opera */
+    -ms-transform: skewX(-15deg); /* Для IE */
+    transform: skewX(-15deg); /* CSS3 */
+}
+
+header .green-tape .triangle-flag-end {
+	display: inline-block;
+	margin-left: 0;
+	width: 50px;
+	height: 50px;
+	background:  #01a217;
+	-webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg); 
+    -o-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg); 
+    transform: skewX(-15deg);
+}
