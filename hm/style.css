@@ -18,12 +18,12 @@ header {
 }
 
 header .space {
-	height: 150px;
+	height: 130px;
 	width: 300px;
 }
 
 header .green-tape {
-	width: 650px;
+	width: 681px;
 	margin-left: 3px;
 	-webkit-transform: rotate(-8deg); /* Для Safari и Chrome */
     -moz-transform: rotate(-8deg); /* Для Firefox */
@@ -33,10 +33,9 @@ header .green-tape {
 }	
 
 header .green-tape h1 {
-
 	padding: 16px 0 10px 100px;
-	font-size: 48px;
-	line-height: .9;
+	font-size: 52px;
+	line-height: 1.1;
 	color: white;
 	font-style: italic;
 	letter-spacing: 1px;
@@ -45,10 +44,11 @@ header .green-tape h1 {
 
 header .green-tape h2 {
 	display: inline-block;
-	width: 190px;
+	width: 250px;
+	margin-top: 53px;
 	margin-left: 283px;
 	padding-left: 40px;
-	font-size: 38px;
+	font-size: 44px;
 	text-transform: uppercase;
 	color: white;
 	font-style: italic;
