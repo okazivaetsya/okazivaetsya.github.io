@@ -89,6 +89,7 @@ body {
 		 header .main .textlogo {
 		 	float: none;
 		 	margin-top: 10px;
+		 	line-height: 1;
 		 }
 
 		 header .main .textlogo h1 {
@@ -276,6 +277,10 @@ body {
 		border: none;
 		line-height: 2;
 		font-weight: 100;
+	}
+
+	.regform input:focus {
+		outline: none;
 	}
 
 	.regform .regform-submit {
