@@ -8,17 +8,17 @@ body {
 }
 
 header {
-	background: url(imgs/bg.jpg);
+	background: url(imgs/site.png);
 	position: relative;
 	background-size: cover;
-	width: 1280px;
-	height: 610px;
+	width: 920px;
+	height: 451px;
 	margin: 0 auto;
 	font-family: 'Scada', sans-serif;
 }
 
 header .space {
-	height: 130px;
+	height: 72px;
 	width: 300px;
 }
 
@@ -33,8 +33,8 @@ header .green-tape {
 }	
 
 header .green-tape h1 {
-	padding: 16px 0 10px 100px;
-	font-size: 52px;
+	padding: 16px 0 10px 63px;
+	font-size: 40px;
 	line-height: 1.1;
 	color: white;
 	font-style: italic;
@@ -44,13 +44,36 @@ header .green-tape h1 {
 
 header .green-tape h2 {
 	display: inline-block;
-	width: 250px;
-	margin-top: 53px;
-	margin-left: 283px;
-	padding-left: 40px;
-	font-size: 44px;
+	width: 215px;
+	margin-top: 34px;
+	margin-left: 206px;
+	padding-left: 24px;
+	font-size: 37px;
 	text-transform: uppercase;
 	color: white;
 	font-style: italic;
+	line-height: 1;
 }
+
+header h3 a {
+	position: absolute;
+	top: 162px;
+	left: 503px;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: black;
+	font-style: italic;
+	text-decoration: none;
+}
+
+header h3 a:hover, header h3 a:active {
+	color: red;
+
+}
+
+
+
+
+
+
 
