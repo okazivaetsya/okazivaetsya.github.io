@@ -68,9 +68,33 @@ header h3 a {
 
 header h3 a:hover, header h3 a:active {
 	color: red;
-
 }
 
+section {
+	position: relative;
+	width: 920px;
+	margin: 0 auto;
+	font-family: 'Scada', sans-serif;
+}
+
+section .section-line {
+	width: 329px;
+	display: inline-block;
+	border-bottom: 3px solid black;
+	padding-bottom: 0px;
+}
+
+
+#history h2 {
+	margin: 25px 80px 25px 80px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #01a217;
+}
+
+#history .content p {
+	margin: 5px 10px;
+}
 
 
 
