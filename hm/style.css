@@ -110,14 +110,6 @@ section h2 {
 	overflow: hidden;
 }
 
-/*#forruners h2 {
-	margin: 25px -4px;
-	display: inline-block;
-	text-transform: uppercase;
-	color: #01a217;
-	font-size: 30px;
-}
-*/
 #forruners .runners-left-block {
 	margin-left: 80px;
 	margin-right: 20px;
@@ -177,9 +169,20 @@ section h2 {
 		color: #01a217;
 	}
 
+#forruners::after {
+	content: '';
+	position: absolute;
+	left: 360px;
+	bottom: -150px;
+	border: 100px solid transparent;
+	border-top: 60px solid white;
+	z-index: 1;	
+}
+
 /*-----------registration section-----------*/
 #registration {
 	position: relative;
+	height: 780px;
 	background: rgb(43,43,43); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(43,43,43,1) 0%, rgba(66,66,66,1) 48%, rgba(66,66,66,1) 52%, rgba(43,43,43,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,43,43,1)), color-stop(48%,rgba(66,66,66,1)), color-stop(52%,rgba(66,66,66,1)), color-stop(100%,rgba(43,43,43,1))); /* Chrome,Safari4+ */
@@ -196,13 +199,15 @@ section h2 {
 }
 
 .reg-header {
-	padding-top: 50px; 
+	width: 100%;
+	margin-top: 0;
+	padding-top: 100px; 
 	display: block;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
 	color: white;
 	letter-spacing: 2px;
-	font-size: 30px;
+	font-size: 45px;
 	text-align: center;
 }
 
@@ -220,23 +225,45 @@ section h2 {
 	vertical-align: middle;
 	margin-top: 5px;
 	border: none;
+
+
 }
 
 #registration form li:last-child {
-	display: block;
-	height: 40px;
-	width: 300px;
-	border-radius: 30px;
-	margin: 20px auto; 
+	margin-top: 50px;
 	text-align: center;
 	padding-left: 0;
+	background: inherit;
 }
 
-#registration form li input:last-child {
+#registration form li button{
+	background: #01a217;
+	color: white;
+	border: 1px solid #01a217;
+	width: 300px;
+	height: 40px;
+	border-radius: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#registration form li button:hover {
 	background: white;
-	border: none;
+	color: #01a217;
 }
 
+
+/*--------------------race section------------------*/
+#race .content {
+	margin: 25px 80px;
+	font-weight: 400;
+}
+
+#race img {
+	width: 100%;
+}
+
+/*------------------sponsors section------------------*/
 
 
 
