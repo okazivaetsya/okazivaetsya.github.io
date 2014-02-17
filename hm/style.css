@@ -15,11 +15,17 @@ nav {
 	font-family: 'Scada', sans-serif;
 	display: block;
 	position: fixed;
-	background: #232323;
+
 	z-index: 2;
 	width: 100%;
 	text-align: center;
 
+}
+
+nav .group {
+	background: #232323;
+	width: 920px;
+	margin: 0 auto;
 }
 
 nav li {
@@ -29,7 +35,7 @@ nav li {
 
 nav li a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 16px;
 	color: white;
 	letter-spacing: 2px;
 	line-height: 1.8;
