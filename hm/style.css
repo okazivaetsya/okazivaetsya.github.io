@@ -1,6 +1,10 @@
 *{
 	margin: 0;
 	padding: 0;
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	font-size: 100%;
 }
 
 body {
@@ -78,24 +82,123 @@ section {
 }
 
 section .section-line {
-	width: 329px;
+	width: 320px;
+	margin: 0 20px;
 	display: inline-block;
-	border-bottom: 3px solid black;
-	padding-bottom: 0px;
+	border-bottom: 2px solid black;
 }
 
-
-#history h2 {
-	margin: 25px 80px 25px 80px;
+section h2 {
+	text-align: center;
+	width: 200px;
+	margin: 25px auto;
 	display: inline-block;
 	text-transform: uppercase;
 	color: #01a217;
+	font-size: 25px;
 }
+
+/*--------------history section------------*/
 
 #history .content p {
 	margin: 25px 80px;
+	font-weight: 400;
 }
 
+/*----------runners section------------*/
+#forruners .content{
+	overflow: hidden;
+}
+
+/*#forruners h2 {
+	margin: 25px -4px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #01a217;
+	font-size: 30px;
+}
+*/
+#forruners .runners-left-block {
+	margin-left: 80px;
+	margin-right: 20px;
+	float: left;
+	width: 355px;
+}
+
+#forruners .runners-left-block h3{
+	font-size: 20px;
+	text-align: center;
+}
+
+#forruners .runners-left-block p {
+	margin-top: 25px;
+	text-align: justify;
+}
+
+#forruners .runners-right-block {
+	margin-right: 80px;
+	margin-left: 20px;
+	float: left;
+	width: 355px;
+}
+
+#forruners .runners-right-block h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
+#forruners .runners-right-block p {
+	margin-top: 25px;
+	text-align: justify;
+}
+
+#forruners .more {
+		display: block;
+		margin-top: 20px;
+		margin: 20px auto;
+		height: 56px;
+		width: 200px;
+		background: #01a217;
+		text-decoration: none;
+		color: white;
+		font-size: 17px;
+		text-align: center;
+		font-weight: 100;
+		text-transform: uppercase;
+		line-height: 56px;
+		border: 2px solid #01a217;
+		letter-spacing: 2px;
+		border-radius: 28px;		
+		
+	}
+
+#forruners .more:hover, #forruners.more:active {
+		background: white;
+		color: #01a217;
+	}
+
+/*-----------registration section-----------*/
+#registration {
+	background: rgb(43,43,43); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(43,43,43,1) 0%, rgba(66,66,66,1) 48%, rgba(66,66,66,1) 52%, rgba(43,43,43,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,43,43,1)), color-stop(48%,rgba(66,66,66,1)), color-stop(52%,rgba(66,66,66,1)), color-stop(100%,rgba(43,43,43,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(43,43,43,1) 0%,rgba(66,66,66,1) 48%,rgba(66,66,66,1) 52%,rgba(43,43,43,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(43,43,43,1) 0%,rgba(66,66,66,1) 48%,rgba(66,66,66,1) 52%,rgba(43,43,43,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(43,43,43,1) 0%,rgba(66,66,66,1) 48%,rgba(66,66,66,1) 52%,rgba(43,43,43,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(43,43,43,1) 0%,rgba(66,66,66,1) 48%,rgba(66,66,66,1) 52%,rgba(43,43,43,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+}
+
+.reg-header {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+#registration form li {
+	display: block;
+	margin-top: 20px; 
+	text-align: center;
+}
 
 
 
