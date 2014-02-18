@@ -49,7 +49,7 @@ nav li a:hover {
 
 /*--------------header style------------------*/
 header {
-	background: url(imgs/site.jpg);
+	background: url(imgs/bg.jpg);
 	position: relative;
 	background-size: cover;
 	width: 920px;
