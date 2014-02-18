@@ -35,10 +35,10 @@ nav li {
 
 nav li a {
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 14px;
 	color: white;
 	letter-spacing: 2px;
-	line-height: 1.8;
+	line-height: 2;
 	text-transform: uppercase;
 }
 
