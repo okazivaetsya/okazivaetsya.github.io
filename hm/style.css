@@ -257,13 +257,21 @@ section h2 {
 	padding-left: 30px;
 }
 
+.radio-field {
+	margin: 20px auto;
+	text-align: center;
+}
+
 #registration form li input {
 	height: 30px;
 	vertical-align: middle;
 	margin-top: 5px;
 	border: none;
+	font-size: 20px
+}
 
-
+#registration form li input:focus {
+	outline: none;
 }
 
 #registration form li:last-child {
@@ -288,6 +296,40 @@ section h2 {
 	background: white;
 	color: #01a217;
 }
+
+
+input[type=radio].css-checkbox {
+							display:none;
+							margin: 30px auto;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left: 40px;
+							height: 30px;
+							display: inline-block;
+							line-height: 30px;
+							background-repeat: no-repeat;
+							background-position: 0 0;
+							font-size: 30px;
+							vertical-align: middle;
+							cursor: pointer;
+							color: white;
+							margin-left: 35px;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -30px;
+						}
+						label.css-label {
+				background-image:url(imgs/checkbox.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
 
 
 /*--------------------race section------------------*/

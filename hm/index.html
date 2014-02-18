@@ -70,8 +70,14 @@
 				<li><input name="adress" size="40" maxlength="100" class="input" type="text" placeholder="Улица, дом, квартира"></li>
 				<li><input name="phone" size="40" maxlength="70" class="input" type="text" placeholder="Телефон"></li>
 				<li><input name="team" size="40" maxlength="70" class="input" type="text" placeholder="Клуб"></li>
-				<li><input name="email" size="40" maxlength="70" class="input" type="text" placeholder="E-mail"></li>
-				<li><input name="birth" size="40" maxlength="70" class="input" type="text" placeholder="Дата рождения"></li>
+				<li><input name="email" size="40" maxlength="70" class="input" type="email" placeholder="E-mail"></li>
+				<li><input name="birth" size="40" maxlength="70" class="input" type="date" placeholder="Дата рождения (дд.мм.гггг)"></li>
+
+				<div class="radio-field">
+				<input type="radio" name="radiog_lite" id="dist-21" class="css-checkbox" checked="checked"/><label for="dist-21" class="css-label">21км</label> 
+				<input type="radio" name="radiog_lite" id="dist-7" class="css-checkbox" /><label for="dist-7" class="css-label">7км</label>
+				</div>
+
 				<li><button type="submit">Зарегистрироваться</button></li>
 			</ul>
 		</form>
@@ -88,5 +94,29 @@
 		<div class="section-line"></div><h2>спонсоры</h2><div class="section-line"></div>
 		<div class="content">
 	</section>
+
+
+<!-- scroll script -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+        <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    event.preventDefault();
+                });
+            });
+        </script>
+<!-- end of scroll script -->
 </body>
 </html>
