@@ -48,7 +48,7 @@
 				<p>Для того, чтобы принять участие в нашем полумарафоне, вам необходимо пройти процедуру регистрации.</p>
 
 				<p>Зарегистрироваться можно на сайте до 22.00 20 мая. 21-23 мая регистрация производиться не будет. Регистрация будет продолжена 23 мая непосредственно в здании ДК Зеленоград.</p>
-				<a class="more" href="">подробнее</a>
+				<a class="more" href="terms.html">подробнее</a>
 			</div>
 
 			<div class="runners-right-block">
@@ -63,7 +63,8 @@
 		<h2 class="reg-header">регистрация</h2>
 		<p class="reg-paragraf">Для участие в 18-ом Зеленоградском полумарафоне необходимо заполнить регистрационную форму (см.ниже), после чего вам на почту будет отправлен алгоритм дальнейших действий. В случае, если у вас нет электронной почты, посмотреть алгоритм оплаты стартового взноса вы можете в разделе <a href="#forruners">«Для частников»</a>. Обращаем ваше внимание на то, что регистрация на сайте является предварительной. Участник подавший заявку появляется в списке участников лишь после оплаты стартового взноса.</p>
 		<div class="reg-content">
-		<form action="">
+
+		<form action="send.php" method="post">
 			<ul>
 				<li><input name="name" size="30" maxlength="70" class="input" type="text" placeholder="Фамилия и имя"></li>
 				<li><input name="country" size="30" maxlength="70" class="input" type="text" placeholder="Страна"></li>
@@ -75,8 +76,8 @@
 				<li><input name="birth" size="30" maxlength="70" class="input" type="date" placeholder="Дата рождения (дд.мм.гггг)"></li>
 
 				<div class="radio-field">
-				<input type="radio" name="radiog_lite" id="dist-21" class="css-checkbox" checked="checked"/><label for="dist-21" class="css-label">21км</label> 
-				<input type="radio" name="radiog_lite" id="dist-7" class="css-checkbox" /><label for="dist-7" class="css-label">7км</label>
+				<input type="radio" name="distance" id="dist-21" class="css-checkbox" value="21" checked="checked"/><label for="dist-21" class="css-label">21км</label> 
+				<input type="radio" name="distance" id="dist-7" class="css-checkbox" value="7" /><label for="dist-7" class="css-label">7км</label>
 				</div>
 
 				<li><button type="submit">Зарегистрироваться</button></li>

@@ -161,7 +161,6 @@ section h2 {
 
 #forruners .runners-left-block p {
 	margin-top: 25px;
-	text-align: justify;
 }
 
 #forruners .runners-right-block {
@@ -178,7 +177,6 @@ section h2 {
 
 #forruners .runners-right-block p {
 	margin-top: 25px;
-	text-align: justify;
 }
 
 #forruners .more {
@@ -232,9 +230,11 @@ section h2 {
 
 .reg-paragraf {
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
 	margin: 0 auto;
 	width: 580px;
 	color: white;
+
 }
 
 .reg-paragraf a {
@@ -286,7 +286,8 @@ section h2 {
 }
 
 #registration form li:last-child {
-	margin-top: 50px;
+	margin: 50px auto;
+
 	text-align: center;
 	padding-left: 0;
 	background: inherit;
@@ -354,6 +355,5 @@ input[type=radio].css-checkbox {
 }
 
 /*------------------sponsors section------------------*/
-
 
 
