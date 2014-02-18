@@ -74,7 +74,7 @@ header .green-tape {
 }	
 
 header .green-tape h1 {
-	padding: 16px 0 10px 63px;
+	padding: 16px 0 10px 50px;
 	font-size: 40px;
 	line-height: 1.1;
 	color: white;
@@ -99,7 +99,7 @@ header .green-tape h2 {
 header h3 a {
 	position: absolute;
 	top: 162px;
-	left: 503px;
+	left: 495px;
 	font-size: 32px;
 	text-transform: uppercase;
 	color: black;
