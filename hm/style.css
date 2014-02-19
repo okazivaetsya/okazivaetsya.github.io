@@ -389,7 +389,6 @@ input[type=radio].css-checkbox {
 /*------------------sponsors section------------------*/
 #sponsors {
 	text-align: center;
-	border-bottom: 2px solid black;
 }
 
 #sponsors .sponsor{
@@ -400,7 +399,10 @@ input[type=radio].css-checkbox {
 }
 
 footer {
-text-align: center;
+	margin: 0 auto;
+	text-align: center;
+	width: 880px;
+	border-top: 2px solid black; 
 }
 
 footer a {
