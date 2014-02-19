@@ -15,11 +15,9 @@ nav {
 	font-family: 'Scada', sans-serif;
 	display: block;
 	position: fixed;
-
 	z-index: 2;
 	width: 100%;
 	text-align: center;
-
 }
 
 nav .group {
@@ -109,6 +107,37 @@ header h3 a {
 
 header h3 a:hover, header h3 a:active {
 	color: red;
+}
+
+header .sponsors-group {
+	text-align: center;
+	position: absolute;
+	display: block;
+	bottom: -23px;
+	left: 215px;
+	width: 487px;
+}
+
+header .sponsors-group img{
+	margin: 0px 5px;
+}
+
+header .sponsors-group .first {
+	padding-bottom: 0px;
+}
+
+header .sponsors-group .second {
+	padding-bottom: 0px;
+	width: 100px;
+}
+
+header .sponsors-group .third {
+	padding-bottom: 0px; 
+}
+
+header .sponsors-group .fourth {
+	padding-bottom: 0px;
+	width: 70px
 }
 
 section {
@@ -217,7 +246,6 @@ section h2 {
 /*-----------registration section-----------*/
 #registration {
 	position: relative;
-	height: 950px;
 	background: rgb(43,43,43); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(43,43,43,1) 0%, rgba(66,66,66,1) 48%, rgba(66,66,66,1) 52%, rgba(43,43,43,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,43,43,1)), color-stop(48%,rgba(66,66,66,1)), color-stop(52%,rgba(66,66,66,1)), color-stop(100%,rgba(43,43,43,1))); /* Chrome,Safari4+ */
@@ -259,6 +287,10 @@ section h2 {
 	text-align: center;
 }
 
+#registration form ul {
+	padding-bottom: 30px;
+}
+
 #registration form li {
 	display: block;
 	background: white;
@@ -286,7 +318,7 @@ section h2 {
 }
 
 #registration form li:last-child {
-	margin: 50px auto;
+	margin-top: 50px;
 
 	text-align: center;
 	padding-left: 0;
@@ -355,5 +387,37 @@ input[type=radio].css-checkbox {
 }
 
 /*------------------sponsors section------------------*/
+#sponsors {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+#sponsors .sponsor{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+footer {
+text-align: center;
+}
+
+footer a {
+	display: inline-block;
+	margin: 10px;
+	opacity: .5;
+}
+
+footer a:hover {
+	display: inline-block;
+	margin: 10px;
+	opacity: 1;
+}
+
+footer img {
+	
+}
+
 
 
