@@ -1,0 +1,8 @@
+AuthUserFile /var/www/zel-marathon.ru/.htpasswd
+AuthType Basic
+AuthName "i"
+
+<Files "reg.csv">
+  require valid-user
+</Files>
+

@@ -1,0 +1,425 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	font-size: 100%;
+}
+
+body {
+
+}
+/*-----------------navigation style---------------*/
+nav {
+	font-family: 'Scada', sans-serif;
+	display: block;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	text-align: center;
+}
+
+nav .group {
+	background: #232323;
+	width: 920px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	margin: 5px 15px;
+}
+
+nav li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	border-bottom: 2px solid white;
+}
+
+
+/*--------------header style------------------*/
+header {
+	background: url(imgs/bg.jpg);
+	position: relative;
+	background-size: cover;
+	width: 920px;
+	height: 451px;
+	margin: 0 auto;
+	font-family: 'Scada', sans-serif;
+}
+
+header .space {
+	height: 72px;
+	width: 300px;
+}
+
+header .green-tape {
+	width: 681px;
+	margin-left: 3px;
+	-webkit-transform: rotate(-8deg); /* Для Safari и Chrome */
+    -moz-transform: rotate(-8deg); /* Для Firefox */
+    -o-transform: rotate(-8deg); /* Для Opera */
+    -ms-transform: rotate(-8deg); /* Для IE */
+    transform: rotate(-8deg); /* CSS3 */
+}	
+
+header .green-tape h1 {
+	padding: 16px 0 10px 50px;
+	font-size: 40px;
+	line-height: 1.1;
+	color: white;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+
+header .green-tape h2 {
+	display: inline-block;
+	width: 215px;
+	margin-top: 34px;
+	margin-left: 206px;
+	padding-left: 24px;
+	font-size: 37px;
+	text-transform: uppercase;
+	color: white;
+	font-style: italic;
+	line-height: 1;
+}
+
+header h3 a {
+	position: absolute;
+	top: 162px;
+	left: 495px;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: black;
+	font-style: italic;
+	text-decoration: none;
+}
+
+header h3 a:hover, header h3 a:active {
+	color: red;
+}
+
+header .sponsors-group {
+	text-align: center;
+	position: absolute;
+	display: block;
+	bottom: -23px;
+	left: 215px;
+	width: 487px;
+}
+
+header .sponsors-group img{
+	margin: 0px 5px;
+}
+
+header .sponsors-group .first {
+	padding-bottom: 0px;
+}
+
+header .sponsors-group .second {
+	padding-bottom: 0px;
+	width: 100px;
+}
+
+header .sponsors-group .third {
+	padding-bottom: 0px; 
+}
+
+header .sponsors-group .fourth {
+	padding-bottom: 0px;
+	height: 80px
+}
+
+section {
+	position: relative;
+	width: 920px;
+	margin: 0 auto;
+	font-family: 'Scada', sans-serif;
+}
+
+section .section-line {
+	width: 320px;
+	margin: 0 20px;
+	display: inline-block;
+	border-bottom: 2px solid black;
+}
+
+section h2 {
+	text-align: center;
+	width: 200px;
+	margin: 35px auto;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #01a217;
+	font-size: 25px;
+}
+
+/*--------------history section------------*/
+
+#history .content p {
+	margin: 25px 80px;
+	font-weight: 400;
+}
+
+/*----------runners section------------*/
+#forruners .content{
+	overflow: hidden;
+}
+
+#forruners .runners-left-block {
+	margin-left: 80px;
+	margin-right: 20px;
+	float: left;
+	width: 355px;
+}
+
+#forruners .runners-left-block h3{
+	font-size: 20px;
+	text-align: center;
+}
+
+#forruners .runners-left-block p {
+	margin-top: 25px;
+}
+
+#forruners .runners-right-block {
+	margin-right: 80px;
+	margin-left: 20px;
+	float: left;
+	width: 355px;
+}
+
+#forruners .runners-right-block h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
+#forruners .runners-right-block p {
+	margin-top: 25px;
+}
+
+#forruners .more {
+		display: block;
+		margin-top: 20px;
+		margin: 20px auto;
+		height: 56px;
+		width: 200px;
+		background: #01a217;
+		text-decoration: none;
+		color: white;
+		font-size: 17px;
+		text-align: center;
+		font-weight: 100;
+		text-transform: uppercase;
+		line-height: 56px;
+		border: 2px solid #01a217;
+		letter-spacing: 2px;
+		border-radius: 28px;		
+		
+	}
+
+#forruners .more:hover, #forruners.more:active {
+		background: white;
+		color: #01a217;
+	}
+
+#forruners::after {
+	content: '';
+	position: absolute;
+	left: 360px;
+	bottom: -150px;
+	border: 100px solid transparent;
+	border-top: 60px solid white;
+	z-index: 1;	
+}
+
+/*-----------registration section-----------*/
+#registration {
+	position: relative;
+	background: rgb(43,43,43); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(43,43,43,1) 0%, rgba(66,66,66,1) 48%, rgba(66,66,66,1) 52%, rgba(43,43,43,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,43,43,1)), color-stop(48%,rgba(66,66,66,1)), color-stop(52%,rgba(66,66,66,1)), color-stop(100%,rgba(43,43,43,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(43,43,43,1) 0%,rgba(66,66,66,1) 48%,rgba(66,66,66,1) 52%,rgba(43,43,43,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(43,43,43,1) 0%,rgba(66,66,66,1) 48%,rgba(66,66,66,1) 52%,rgba(43,43,43,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(43,43,43,1) 0%,rgba(66,66,66,1) 48%,rgba(66,66,66,1) 52%,rgba(43,43,43,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(43,43,43,1) 0%,rgba(66,66,66,1) 48%,rgba(66,66,66,1) 52%,rgba(43,43,43,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+}
+
+.reg-paragraf {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	margin: 0 auto;
+	width: 580px;
+	color: white;
+
+}
+
+.reg-paragraf a {
+	color: #01a217;
+}
+
+.reg-content {
+	width: 580px;
+	margin: 20px auto;
+}
+
+.reg-header {
+	width: 100%;
+	margin-top: 0;
+	padding-top: 65px; 
+	display: block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 45px;
+	text-align: center;
+}
+
+#registration form ul {
+	padding-bottom: 30px;
+}
+
+#registration form li {
+	display: block;
+	background: white;
+	height: 40px;
+	border-radius: 30px;
+	margin-top: 20px; 
+	padding-left: 30px;
+}
+
+.radio-field {
+	margin: 20px auto;
+	text-align: center;
+}
+
+#registration form li input {
+	height: 30px;
+	vertical-align: middle;
+	margin-top: 5px;
+	border: none;
+	font-size: 20px
+}
+
+#registration form li input:focus {
+	outline: none;
+}
+
+#registration form li:last-child {
+	margin-top: 50px;
+
+	text-align: center;
+	padding-left: 0;
+	background: inherit;
+}
+
+#send{
+	background: #01a217;
+	color: white;
+	border: 1px solid #01a217;
+	width: 300px;
+	height: 40px;
+	border-radius: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#send:hover {
+	background: white;
+	color: #01a217;
+}
+
+
+input[type=radio].css-checkbox {
+							display:none;
+							margin: 30px auto;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left: 40px;
+							height: 30px;
+							display: inline-block;
+							line-height: 30px;
+							background-repeat: no-repeat;
+							background-position: 0 0;
+							font-size: 30px;
+							vertical-align: middle;
+							cursor: pointer;
+							color: white;
+							margin-left: 35px;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -30px;
+						}
+						label.css-label {
+				background-image:url(imgs/checkbox.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+
+/*--------------------race section------------------*/
+#race .content {
+	margin: 25px 80px;
+	font-weight: 400;
+}
+
+#race img {
+	width: 100%;
+}
+
+/*------------------sponsors section------------------*/
+#sponsors {
+	text-align: center;
+}
+
+#sponsors .sponsor{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+	width: 880px;
+	border-top: 2px solid black; 
+}
+
+footer a {
+	display: inline-block;
+	margin: 10px;
+	opacity: .5;
+}
+
+footer a:hover {
+	display: inline-block;
+	margin: 10px;
+	opacity: 1;
+}
+
+footer img {
+	
+}
+
+
+
