@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	width: 920px;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.navbutton {
+	border: 1px solid green;
+	background: white;
+	color: green;
+}
+
+.navbutton:hover {
+	background: green;
+	color: white;	
+}
+
+section {
+	width: 700px;
+	margin: 50 auto;
+}
