@@ -89,13 +89,13 @@ section {
 
 	.righttextblock .firstname {
 		color: #2e9fd0;
-		font-family: arial black, Helvetica, Sans-serif;
+		font-family: 'Cuprum', sans-serif;
 		font-weight: 900;
 	}
 
 	.righttextblock .secondname {
 		color: white;
-		font-family: helvetica, arial, Sans-serif;
+		font-family: 'Cuprum', sans-serif;
 		font-weight: 100;
 	}
 
@@ -217,13 +217,13 @@ section {
 
 	.firstname {
 		color: #2e9fd0;
-		font-family: arial black, Helvetica, Sans-serif;
+		font-family: 'Cuprum', sans-serif;
 		font-weight: 900;
 	}
 
 	.secondname {
 		color: white;
-		font-family: helvetica, arial, Sans-serif;
+		font-family: 'Cuprum', sans-serif;
 		font-weight: 100;
 	}
 
