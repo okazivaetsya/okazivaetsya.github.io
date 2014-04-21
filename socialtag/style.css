@@ -70,6 +70,10 @@ nav {
 		font-size: 25px;
 	}
 
+	.navmore h2 {
+		color: white;
+	}
+
 section {
 	height: 620px;
 	position: relative;
