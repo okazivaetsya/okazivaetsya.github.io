@@ -228,7 +228,12 @@ section {
 	}
 
 	.dwnldbut {
+		opacity: .9;
 		margin-top: 60px;
+	}
+
+	.dwnldbut:hover {
+		opacity: 1;
 	}
 
 	.lefttextblock3 a {
