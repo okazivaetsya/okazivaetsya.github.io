@@ -28,11 +28,15 @@ nav {
 
 	.navlogo {
 		display: inline-block;
-		width: 33%;
+		margin: 20px
+	}
+
+	.navlogo h1 {
+		font-size: 50px;
 	}
 
 	.navnav {
-		width: 33%;
+		margin-left: 170px;
 		display: inline-block;
 		color: white;
 		font-size: 25px;
@@ -56,7 +60,7 @@ nav {
 		}
 
 	.navmore {
-		width: 33%;
+		margin-left: 270px; 
 		display: inline-block;
 	}
 
