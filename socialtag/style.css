@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+nav {
+	position: fixed;
+	height: 100px;
+	width: 1200px;
+	background: black;
+	opacity: .5;
+	z-index: 5;
+}
+
+.navsup {
+	position: fixed;
+	height: 100px;
+	width: 1200px;
+	z-index: 6;
+}
+
+	.navlogo {
+		display: inline-block;
+		width: 33%;
+	}
+
+	.navnav {
+		width: 33%;
+		display: inline-block;
+		color: white;
+		font-size: 25px;
+	}
+
+		.navnav ul {
+			margin-left: 90px;
+			display: inline-block;
+		}
+
+		.navnav li {
+			display: inline;
+		}
+
+		.navnav a {
+			color: white;
+		}
+
+	.navmore {
+		width: 33%;
+		display: inline-block;
+	}
+
+	.navmore a {
+		color: white;
+		font-weight: lighter;
+		font-size: 25px;
+	}
+
+section {
+	height: 620px;
+	position: relative;
+}
+
+#socialtag {
+	background: url(imgs/bg1.jpg);
+}
+
+.righttextblock {
+	position: absolute;
+	right: 60px;
+	top: 150px;
+	width: 600px;
+}
+	
+	.righttextblock h1 {
+		font-size: 75px;
+		letter-spacing: 6px;
+	}
+
+	.righttextblock .firstname {
+		color: #2e9fd0;
+		font-family: arial black, Helvetica, Sans-serif;
+		font-weight: 900;
+	}
+
+	.righttextblock .secondname {
+		color: white;
+		font-family: helvetica, arial, Sans-serif;
+		font-weight: 100;
+	}
+
+	.righttextblock p {
+		margin-top: 35px;
+		font-size: 29px;
+		color: white;
+		letter-spacing: 2px;
+
+	}
+
+	.righttextblock .right {
+		margin-top: 30px;
+		text-align: right;
+	}
+
+
+#likefoursquare {
+	background: url(imgs/bg2.jpg);
+}
+
+.lefttextblock {
+	position: absolute;
+	left: 60px;
+	top: 150px;
+	width: 525px;
+}
+
+	.lefttextblock h2 {
+		margin-top: 30px;
+		font-size: 33px;
+		color: white;
+		font-weight: normal;
+	}
+
+	.lefttextblock p {
+		margin-top: 35px;
+		font-size: 20px;
+		color: white;
+		font-weight: 100;
+		letter-spacing: 1px;
+	}
+
+#socialrank {
+	background: url(imgs/bg3.jpg);
+}
+
+.righttextblock2 {
+	position: absolute;
+	right: 60px;
+	top: 150px;
+	width: 600px;
+}
+
+	.righttextblock2 h2 {
+		margin-top: 30px;
+		font-size: 33px;
+		color: white;
+		font-weight: normal;
+	}
+
+	.righttextblock2 p {
+		margin-top: 35px;
+		font-size: 20px;
+		color: white;
+		font-weight: 100;
+		letter-spacing: 1px;
+	}
+
+#offline {
+	background: url(imgs/bg4.jpg);
+}
+
+.lefttextblock2 {
+	color: black;
+	position: absolute;
+	left: 60px;
+	top: 150px;
+	width: 525px;
+}
+
+	.lefttextblock2 h2 {
+		margin-top: 30px;
+		font-size: 33px;
+		font-weight: normal;
+	}
+
+	.lefttextblock2 p {
+		margin-top: 35px;
+		font-size: 20px;
+		font-weight: 100;
+		letter-spacing: 1px;
+	}
+
+
+#contacts {
+	background: url(imgs/bg5.jpg);
+}
+
+.lefttextblock3 {
+	color: white;
+	position: absolute;
+	left: 60px;
+	top: 80px;
+	width: 525px;
+}
+
+	.lefttextblock3 h2 {
+		font-size: 80px;
+		letter-spacing: 7px;
+	}
+
+	.lefttextblock3 p {
+		margin-top: 35px;
+		font-size: 25px;
+		font-weight: 500;
+		letter-spacing: 1px;
+	}
+
+	.firstname {
+		color: #2e9fd0;
+		font-family: arial black, Helvetica, Sans-serif;
+		font-weight: 900;
+	}
+
+	.secondname {
+		color: white;
+		font-family: helvetica, arial, Sans-serif;
+		font-weight: 100;
+	}
+
+	.dwnldbut {
+		margin-top: 60px;
+	}
+
+	.lefttextblock3 a {
+		color: white;
+	}
+
+	.lefttextblock3 .lasttext {
+		width: 450px;
+		font-size: 18px;
+		font-weight: 100;
+		margin-top: 120px;
+	}
