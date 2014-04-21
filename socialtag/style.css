@@ -51,6 +51,10 @@ nav {
 			color: white;
 		}
 
+		.navnav a:hover {
+			color:yellow;
+		}
+
 	.navmore {
 		width: 33%;
 		display: inline-block;
