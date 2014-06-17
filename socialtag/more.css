@@ -14,24 +14,35 @@ body {
 }
 
 section {
-
 }
 
 .title-caption {
 	background: #cdecf6;
 	height: 135px;
 	width: 100%;
-
 }
 
 .title-caption h1 {
 	padding: 30px 50px;
 	font-size: 50px;
+
+
+}
+
+.title-caption .link {
+	color: white;
+	font-weight: lighter;
+	font-size: 25px;
+}
+
+.title-caption .link a {
+	color: white;
 }
 
 .text-caption {
 	overflow: hidden;
 	padding-bottom: 50px;
+	font-size: 19px;
 }
 
 .text-caption h2 {
@@ -40,9 +51,7 @@ section {
 }
 
 .text-caption p {
-
 	padding: 0px 50px 30px 50px;
-	font-size: 15px;
 }
 
 .paragraph-for-text {
@@ -57,4 +66,9 @@ section {
 .space-div {
 	width: 100%;
 	height: 50px;
+}
+
+ul {
+	-webkit-padding-start: 80px;
+	-webkit-margin-after: 25px;
 }
